@@ -1,0 +1,61 @@
+body {
+  background-color: green;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 180px;
+  width: 215px;
+  margin-top: -90px;
+  margin-left: -107.5px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: lightblue;
+}
+
+.captcha {
+  margin-bottom: 10px;
+}
+
+table {
+  float: left;
+  margin-right: 5px;
+  border: 0;
+  border-collapse: collapse;
+}
+
+td {
+  width: 10px;
+  height: 10px;
+}
+
+form {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+button {
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+}

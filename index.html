@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Captcha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="buildCaptcha()">
+
+<div class="wrapper">
+  <div class="captcha">
+    <table id="table1"></table>
+    <table id="table2"></table>
+  </div>
+  <form name="form">
+    <input type="text" name="input" placeholder="Enter the number">
+    <button type="button" id="button" onclick="checkResult()">Check the result</button>
+  </form>
+  <span id="result"></span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
